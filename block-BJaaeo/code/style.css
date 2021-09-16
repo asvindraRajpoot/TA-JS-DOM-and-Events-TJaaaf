@@ -1,0 +1,169 @@
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Generic Styles */
+html{
+    font-size: 16px;
+}
+body{
+    line-height: 1.5;
+}
+*,
+::before,
+::after{
+    box-sizing: border-box;
+
+}
+.container{
+    display: flex;
+    max-width: 1250px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.flex{
+    display: flex;
+}
+.space-between{
+    justify-content: space-between;
+}
+.colom{
+    flex-direction: column;
+}
+.flex-end{
+    justify-content: flex-end;
+}
+.align-self{
+    align-items: center;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.text-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    
+}
+
+.smallbox{
+    width: 10rem;
+    height: 7rem;
+    border-radius: .7rem;
+
+    padding: .5rem;
+    
+}
+
+.longbox{
+    width: 41.7rem;
+    height: 10rem;
+    border-radius: .7rem;
+   
+}
+.equalbox{
+    width: 10rem;
+    height: 30rem;
+    border-radius: .7rem;
+    margin-top: .6rem;
+
+}
+
+
+h1{
+    font-size: 3.5rem;
+    margin: 1rem 0;
+    padding: 1rem 0;
+   
+}
+h2{
+    font-size: 3rem;
+    padding-right: 1rem;
+}
+h3{
+    font-size: 3rem;
+}
+
+.margin{
+    margin: 1rem .5rem;
+}
+.padding{
+    padding: .5rem .3rem;
+}
+
+.black-color{
+    background-color: black;
+    color: white;
+}
+.green-color{
+    background-color: #008080;
+    color: black;
+}
+.red-color{
+    background-color: #710133;
+    color: white;
+}
+.gray-color{
+    background-color: #CFCFCF;
+    color: black;
+}
+.brown-color{
+    background-color: #3D1B11;
+}
+.yellow-color{
+    color: rgb(224, 207, 111);
+}
