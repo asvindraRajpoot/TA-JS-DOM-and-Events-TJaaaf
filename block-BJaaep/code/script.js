@@ -29,18 +29,18 @@ function mainWithoutDeligation() {
 mainWithoutDeligation();
 
 
-function mainWithDeligation(){
-let box = document.querySelector('.wrapper .Deligation ');
+function mainWithDeligation() {
+    let box = document.querySelector('.wrapper .Deligation ');
 
-box.addEventListener('click', (event) => {
+    box.addEventListener('click', (event) => {
 
-    let text = event.target.attributes[1].value;
+        let text = event.target.dataset.text;
 
-    console.log(text);
-    event.target.innerText = text;
-    setTimeout(function () { event.target.innerText = "" }, 5000);
+        
+        event.target.innerText = text;
+        setTimeout(function () { event.target.innerText = "" }, 5000);
 
-});
+    });
 
 }
 mainWithDeligation();
