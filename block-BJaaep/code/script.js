@@ -28,29 +28,19 @@ function mainWithoutDeligation() {
 }
 mainWithoutDeligation();
 
+
 function mainWithDeligation(){
 let box = document.querySelector('.wrapper .Deligation ');
-let count = 1;
 
+box.addEventListener('click', (event) => {
 
-function handler(event) {
+    let text = event.target.attributes[1].value;
 
-
-
-
-    if (count >= 13) {
-        count = 1;
-    }
-
-
-    event.target.innerText = count++;
-    console.log(count);
-
+    console.log(text);
+    event.target.innerText = text;
     setTimeout(function () { event.target.innerText = "" }, 5000);
-}
 
-
-box.addEventListener('click', handler);
+});
 
 }
 mainWithDeligation();
