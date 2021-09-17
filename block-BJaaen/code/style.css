@@ -1,0 +1,134 @@
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* generic classes */
+*,
+::before,
+::after{
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+body{
+    line-height: 1.5;
+    font-family: sans-serif;
+}
+.container{
+    max-width: 600px;
+    width: 100%;
+    margin: 6rem auto;
+    box-shadow: 0,0,0,0,gray;
+    display: flex;
+    flex-direction: column;
+    /* padding: 1rem; */
+    border-radius: .5rem;
+   
+}
+h1{
+    font-size: 2.5rem;
+    background-color: #3290FF;
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+    
+}
+label{
+    display: block;
+    font-size: 1.8rem;
+    margin: 1rem 1rem;
+}
+button{
+    background: unset;
+    border: 0;
+    font-size: 3.5rem;
+}
+section{
+    padding: 1.5rem;
+}
+main{
+    box-shadow: -.1rem .2rem .5rem .2rem rgb(179, 173, 173);
+    /* border: .2rem solid black; */
+    /* border-radius: 1rem; */
+    border-top-left-radius: 1rem;
+}
+
+.reset{
+    margin-top: 1rem;
+    margin: 1.5rem 1rem;
+    
+}
+.reset button{
+    font-size: 2.5rem;
+   
+}
+
+.computer button,.user button{
+    margin: 0 1rem;
+}
+.user button{
+    color: #3290FF;
+}
+.computer button{
+
+color: #EB2B34;
+}
+
+.output{
+    text-align: center;
+    font-size: 2.5rem;
+}
