@@ -91,3 +91,56 @@ input[type='text'] {
 .terms {
   display: inline-block;
 }
+
+
+/* JS css */
+
+.secondForm{
+  display: none;
+
+}
+.userForm{
+
+  background-color:white;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 35%;
+  right: 35%;
+  bottom: 35%;
+  top: 25%;
+  padding: 1rem;
+}
+.userForm h1{
+  font-size: 2rem;
+  font-weight: bold;
+}
+.userForm address{
+  font-style: normal;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: .6rem;
+}
+.userForm li{
+ list-style-type: none;
+ font-size: 1.5rem;
+ font-weight: bold;
+ margin: .8rem 0;
+}
+.userForm p{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.secondForm button{
+font-size: 1.5rem;
+border: none;
+background: unset;
+color: black;
+font-weight: bold;
+position: absolute;
+right: 0;
+top: 0;
+color: gray;
+
+}
