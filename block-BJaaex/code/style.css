@@ -1,0 +1,133 @@
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+body {
+    line-height: 1;
+    background-color: aliceblue;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+*,
+::before,
+::after{
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+h1{
+    font-size: 3.5rem;
+    padding: 1rem;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+.text-center{
+    text-align: center;
+}
+.iconBoxContainer{
+    background-color: rgb(198, 206, 212);
+    display: flex;
+    width: 100%;
+    
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    
+
+}
+
+.iconbox{
+    
+ 
+    background-color: rgb(69, 223, 202);
+    margin: .5rem;
+    width: 22%;
+    height: 10rem;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    color: navy;
+    box-shadow: 0 0 .5rem .1rem rgb(79, 99, 79);
+}
+.dashboard{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+ .iconbox i{
+
+    display: none;
+}
+.close{
+    display: none;
+}
+.open{
+    display: flex;
+}
+
+.show {
+    display: flex;
+}
+
+.hide {
+    display: none;
+}
