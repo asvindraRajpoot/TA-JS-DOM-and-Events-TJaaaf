@@ -1,0 +1,12 @@
+{
+
+    "name":"To do List",
+    "description":"To do List what to do and what is completed",
+    "version":"1.0.0",
+    "manifest_version":2,
+    "chrome_url_overrides":{
+        "newtab":"index.html"
+    }
+
+
+}
